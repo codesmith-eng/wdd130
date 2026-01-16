@@ -10,25 +10,33 @@ nav a{
     padding: 20px;
 }
 
+main{
+    max-width: 600px;
+    margin: auto;
+}
+
 
 h1 {
     color: darkblue;
 }
 
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid rgb(165, 15, 15);
     padding: 2px;
+    display:block;
+    margin: auto;
     box-shadow: 0 0 30px gray; 
 }
 
 
 
 p {
-    padding: 5px;
+    padding: 0px;
 }
+
 
 footer img {
     width: 20px;
@@ -37,4 +45,41 @@ footer img {
     padding: none;
 }
 
+
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 2px;
+}
+
+aside{
+    width: 600px;
+    border: 2px #971458;
+    padding: 10px;
+    background-color: #cdefd8;
+    color: blueviolet;
+    margin: auto;
+}
+
+aside img{
+    width: 200px;
+    height:auto;
+    display:block;
+    margin: auto;
+    box-shadow: 3px 3px 7px 7px rgb(77, 87, 91);
+}
+
+aside h2 {
+    text-align: center;
+    color: #368956;
+    
+}
+
+footer {
+    margin-top: 60px;
+    text-align: center;
+    border-top-width: 3px;
+    border-top-style: solid;
+    background-color:rgb(206, 206, 225);
+
+}
 
