@@ -38,12 +38,6 @@ p {
 }
 
 
-footer img {
-    width: 20px;
-    height: auto;
-    border: none;
-    padding: none;
-}
 
 
 * {
@@ -77,9 +71,17 @@ aside h2 {
 footer {
     margin-top: 60px;
     text-align: center;
+    border-top: 2px;
     border-top-width: 3px;
     border-top-style: solid;
     background-color:rgb(224, 224, 238);
 
+}
+
+footer img{
+    margin: auto;
+    vertical-align: middle;
+    width: 20px;
+    height: auto;
 }
 
