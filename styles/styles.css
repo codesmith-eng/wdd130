@@ -1,18 +1,48 @@
+:root {
+    --main-color: blue;
+    --accent-color: white;
+    --text-color:black;
+    --secondary-color: white;
+    --border-color: white;
+    --foot-bg:black;
+    --footer-text:#fff;
+    --nav-bg: blue;
+    --box-bg: black;
+    --box-border: blue;
+    --box-border: white;
+    --box-text: black;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Setting the universal selector (*) to have a margin and 
+padding of zero (0) will ensure that all elements on the 
+page will have no margin or padding, regardless of the browser defaults. 
+This will make it easier for you to control the page layout.  */
+
 nav {
     background-color: darkblue;
     padding: 10px;
 }
 
+main h1{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
 
 nav a{
     color:white;
-    display: block;
     padding: 20px;
+    display:inline-block;
+    font-size: large;
 }
 
 main{
     max-width: 600px;
-    margin: auto;
 }
 
 
@@ -20,6 +50,7 @@ h1 {
     color: darkblue;
 }
 
+/*  */
 
 main img {
     width: 150px;
@@ -27,7 +58,7 @@ main img {
     border: 1px solid rgb(165, 15, 15);
     padding: 2px;
     display:block;
-    margin: auto;
+    float: right;
     box-shadow: 0 0 30px gray; 
 }
 
@@ -47,24 +78,24 @@ p {
 
 aside{
     width: 600px;
-    border: 2px #971458;
-    padding: 10px;
-    background-color: #cdefd8;
-    color: blueviolet;
     margin: auto;
+    position: relative;
 }
 
 aside img{
-    width: 200px;
+    width: 400px;
     height:auto;
     display:block;
     margin: auto;
     box-shadow: 3px 3px 7px 7px rgb(77, 87, 91);
+    padding: 
 }
 
 aside h2 {
-    text-align: center;
-    color: #368956;
+    color: #a41212;
+    position: absolute;
+    left: 100px;
+    top: 200px;
     
 }
 
@@ -85,3 +116,16 @@ footer img{
     height: auto;
 }
 
+/* Class Selectors */
+
+.box{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px;
+    background-color: var(--text-color);
+    color: var(--secondary-color);
+}
+
+aside p{
+    margin-top: 50px;
+}
