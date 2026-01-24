@@ -1,4 +1,4 @@
-:roof{
+:root {
     --background: #ffffff;
     --primary-color: #0a2540;
     --secondary: #334155;
@@ -39,7 +39,7 @@ nav, p, section, article {
 
 
 header {
-    background-color: var(--accent-color);
+    background-color: var(--background);
     color: var(--primary-color);
 }
 
@@ -70,7 +70,7 @@ header nav{
     height was set to auto so that it will not affect the aspect ratio */
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -82,7 +82,7 @@ h1 {
     background-color: green;
 }
 
-article {
+.hero article {
     position:absolute;
     bottom: 5px;
     background-color: antiquewhite;
