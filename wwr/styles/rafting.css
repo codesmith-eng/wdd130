@@ -1,8 +1,8 @@
 :roof{
     --background: #ffffff;
-    --primary: #0a2540;
+    --primary-color: #0a2540;
     --secondary: #334155;
-    --accent: #2563eb;
+    --accent-color: #2563eb;
     --text: #111827;
     --bg: white;
     --heading-font: Georgia, 'Times New Roman', Times, serif;
@@ -19,7 +19,7 @@ This is very important and must be in all your css file*/
 
 body {
     font-family: var(--heading-font);
-    color: var(--accent);
+    color: var(--accent-color);
 }
 
 header, main, footer {
@@ -29,7 +29,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary);
+    color: var(--primary-color);
 }
 
 nav, p, section, article {
@@ -39,8 +39,8 @@ nav, p, section, article {
 
 
 header {
-    background-color: var(--accent);
-    color: var(--primary);
+    background-color: var(--accent-color);
+    color: var(--primary-color);
 }
 
 header img{
@@ -77,7 +77,7 @@ h1 {
     padding: 3px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--primary);
+    background-color: var(--primary-color);
     color: rgb(242, 246, 242);
     background-color: green;
 }
@@ -100,6 +100,7 @@ h2 {
     background-color:antiquewhite;
     padding: 3px;
 }
+
 .socialmedia img{
     margin:5px;
 }
