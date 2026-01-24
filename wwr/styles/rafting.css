@@ -1,0 +1,106 @@
+:roof{
+    --background: #ffffff;
+    --primary: #0a2540;
+    --secondary: #334155;
+    --accent: #2563eb;
+    --text: #111827;
+    --bg: white;
+    --heading-font: Georgia, 'Times New Roman', Times, serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+/* Using the universal selector (*) to control the page layout. 
+This is very important and must be in all your css file*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--heading-font);
+    color: var(--accent);
+}
+
+header, main, footer {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary);
+}
+
+nav, p, section, article {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+header {
+    background-color: var(--accent);
+    color: var(--primary);
+}
+
+header img{
+    display: block;
+    margin: 0 auto;
+}
+
+header nav{
+    font-size: 20px;
+}
+
+
+.socialmedia a{
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+    /* The display was set to block and 
+    width was set to 100% so that it can fill the entire div element.
+    height was set to auto so that it will not affect the aspect ratio */
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 3px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--primary);
+    color: rgb(242, 246, 242);
+    background-color: green;
+}
+
+article {
+    position:absolute;
+    bottom: 5px;
+    background-color: antiquewhite;
+    padding: 3px;
+    opacity:0.7;
+}
+
+.hero article img{
+    width: 100px;
+    float: right;
+}
+
+h2 {
+    text-align: center;
+    background-color:antiquewhite;
+    padding: 3px;
+}
+.socialmedia img{
+    margin:5px;
+}
+
