@@ -137,36 +137,34 @@ aside {
     margin-top: 30px;
 }
 
+.image {
+    display: grid;
+    grid-template-columns: repeat(6, 220px);
+    column-gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .image h2 {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 10px;
+    grid-column: 1/ span7;
+    margin-right: 220px;
 }
 
-.image figure {
-    display: flex;
-    gap: 0.5px;
-
-}
-
-.image-box {
-    position: relative;
-    flex: 1;
-}
-
-.image-box img {
-    width: 200px;
-    height: auto;
-    display: block;
+.image figure img {
+    width: 100%;
     border-style: ridge;
     border-radius: 20px;
     border-width: 5px;
+    justify-content: space-between;
+    margin-left: 10px;
 }
 
-.image figcaption {
+.image figure figcaption {
     color: var(--primary-color);
-    position: absolute;
-    left: 40px;
-    padding: 5px;
+    margin-top: 5px;
+    margin-left: 30px;
 }
 
 .socialmedia {
@@ -182,7 +180,7 @@ aside {
 footer {
     display: grid;
     grid-template-columns: 5fr 5fr;
-    margin-top: 100px;
+    margin-top: 60px;
     border-top: var(--primary-color);
     border-top-style: solid;
     background-color: var(--foot);
