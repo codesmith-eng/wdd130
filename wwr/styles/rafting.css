@@ -2,7 +2,6 @@
     --background: #ffffff;
     --primary-color: #0a2540;
     --accent-color: #2563eb;
-    --text: green;
     --foot: black;
     --normal: antiquewhite;
     --heading-font: Georgia, 'Times New Roman', Times, serif;
@@ -101,7 +100,7 @@ h2 {
     padding: 3px;
 }
 
-nav ul {
+nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -109,18 +108,21 @@ nav ul {
 
 }
 
-nav,
-ul,
-a {
+nav a {
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: var(--accent-color)
 }
 
 .history {
-    display: flex;
-    justify-content: space-between;
-    margin-top: -5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    row-gap: 10px;
+}
+
+.history h2 {
+    grid-column: 1/ span 3;
 }
 
 .history img {
@@ -128,6 +130,7 @@ a {
     border-color: var(--normal);
     border-width: 6px;
     border-radius: 20px;
+    margin-left: 40px;
 }
 
 aside {
@@ -141,18 +144,17 @@ aside {
 
 .image figure {
     display: flex;
-    gap: 50px;
+    gap: 0.5px;
 
 }
 
 .image-box {
     position: relative;
     flex: 1;
-    /* overflow: hidden; */
 }
 
 .image-box img {
-    width: 100%;
+    width: 200px;
     height: auto;
     display: block;
     border-style: ridge;
@@ -163,15 +165,18 @@ aside {
 .image figcaption {
     color: var(--primary-color);
     position: absolute;
-    left: 20px;
+    left: 40px;
     padding: 5px;
 }
 
 .socialmedia {
-    text-decoration: none;
     display: flex;
     justify-content: flex-end;
     gap: 20px;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
 
 footer {
