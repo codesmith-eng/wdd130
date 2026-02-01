@@ -1,7 +1,6 @@
 :root {
     --background: #ffffff;
     --primary-color: #0a2540;
-    --accent-color: #2563eb;
     --foot: black;
     --normal: antiquewhite;
     --heading-font: Georgia, 'Times New Roman', Times, serif;
@@ -111,7 +110,7 @@ nav {
 nav a {
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: var(--accent-color)
+    color: var(--background)
 }
 
 .history {
@@ -189,5 +188,5 @@ footer {
 footer p {
     text-align: center;
     font-size: 18px;
-    color: var(--accent-color);
+    color: var(--background);
 }
