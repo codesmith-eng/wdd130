@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Poll Form</title>
+    <meta name="description" content="Practicing Form in HTML">
+    <meta name="author" content="Moses Olagbami Ayobami">
+    <link rel="stylesheet" href="styles/poll.css">
+</head>
+
+<body>
+    <header>
+        <h1>2026 Poll Form | MADE BY MOSES</h>
+    </header>
+   
+    <main>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="form-item column1">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-item column2">
+                    <label for="fullname">Fullname:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-item column2">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+
+                <div class="form-item column1">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="07030000000" required>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Poll Questions</legend>
+
+                <div class="form-item column3">
+                    <label for="browser">What is your Favorite Internet Browser</label>
+                    <select name="browser" id="browser" required>
+                        <option value="chrome">Chrome</option>
+                        <option value="safari">Safari</option>
+                        <option value="edge">Edge</option>
+                        <option value="brave">Brave</option>
+                        <option value="mozilla">Mozilla</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-item column3">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet" required>
+                </div>
+
+                <div class="form-item column4">
+                    <label for="feedback">List the places you have lived:</label>
+                    <textarea id="feedback" name="feedback" rows="2" placeholder="56, Ekoro Road" required></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;2026 | HTML Form - User Poll Activity | Moses Olagbami</p>
+    </footer>
+</body>
+</html>
