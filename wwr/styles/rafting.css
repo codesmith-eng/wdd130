@@ -219,10 +219,6 @@ button:hover {
     font-weight: 600;
 }
 
-.image p {
-    text-align: center;
-}
-
 .socialmedia {
     display: flex;
     justify-content: flex-end;
