@@ -13,14 +13,16 @@ header {
     margin: 0 auto;
     width: 800px;
 }
-h1{
+
+h1 {
     text-align: center;
     padding: 20px;
     font-size: 2rem;
     color: rgb(24, 24, 128);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-form{
+
+form {
     background-color: lightgrey;
     margin: 0 auto;
     width: 800px;
@@ -31,11 +33,11 @@ form{
     display: grid;
 }
 
-footer{
+footer {
     text-align: center;
 }
 
-fieldset{
+fieldset {
     display: grid;
     gap: 1rem;
     margin: 1rem;
@@ -44,90 +46,101 @@ fieldset{
     border-radius: 1rem;
 }
 
-legend{
-    padding:0.5rem;
-    color:navy;
-    font-size:1.3rem;
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3rem;
 }
 
-label, input, button, select, textarea{
+label,
+input,
+button,
+select,
+textarea {
     padding: 0.5rem;
     font-size: 1rem;
     font-family: Roboto, Arial, Helvetica, sans-serif
 }
 
-label{
+label {
     text-align: left;
-    padding-right:0.5em ;
+    padding-right: 0.5em;
 }
 
-input, select, textarea{
+input,
+select,
+textarea {
     border: 1px solid black;
-    padding:0.5rem;
+    padding: 0.5rem;
     font-size: 1.1rem;
 }
 
-input[type="checkbox"]{
+input[type="checkbox"] {
     height: 22px;
-    margin-right:280px;
+    margin-right: 280px;
 }
 
-textarea[id="feedback"]{
+textarea[id="feedback"] {
     margin-bottom: 3rem;
 }
 
-label[for="feedback"]{
+label[for="feedback"] {
     padding-top: 0.1rem;
 }
 
-
-button{
-    margin:3rem;
+button {
+    margin: 3rem;
     background-color: navy;
-    color:#fff;
+    color: #fff;
     border: none;
     border-radius: 5rem;
-    padding:.75rem;
+    padding: .75rem;
     font-size: 1.2rem;
     width: 150px;
     margin: 0 auto;
 }
 
-button:hover{
+button:hover {
     background-color: darkgreen;
 }
 
-footer{
-    margin:1rem auto 0;
+footer {
+    margin: 1rem auto 0;
     width: 650px;
     text-align: center;
     font-size: .8em;
-    color:#777;
+    color: #777;
     border-top: 1px solid #ccc;
-    padding-top:20px;
+    padding-top: 20px;
 }
-.form-item{
-    display:grid;
+
+.form-item {
+    display: grid;
     align-items: center;
 }
 
-.column1{
+.column1 {
     grid-template-columns: 3fr 7fr;
     margin: 0.5rem 0;
 }
 
-.column2{
+.column2 {
     grid-template-columns: 3fr 7fr;
 }
 
-label[for="email"], label[for="phone"], label[for="fullname"], label[for="username"], label[for="browser"], label[for="pet"]{
+label[for="email"],
+label[for="phone"],
+label[for="fullname"],
+label[for="username"],
+label[for="browser"],
+label[for="pet"] {
     text-align: right;
 }
 
-.column3{
+.column3 {
     grid-template-columns: 5fr 4fr;
 }
 
-label[for="feedback"]{
+label[for="feedback"] {
     text-align: center;
 }
