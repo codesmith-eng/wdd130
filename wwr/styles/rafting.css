@@ -89,13 +89,20 @@ header nav {
     border-radius: 10px;
     box-shadow: 0 0 30px rgb(214, 224, 68);
 }
+.hero article h2{
+    font-size: 16px;
+    margin: -5px;
+    font-style: var(--body-font);
+    margin-left: 5px;
+}
 
 .hero article img {
     width: 100px;
     float: right;
 }
 
-h2 {
+
+.history h2 {
     text-align: center;
     padding: 3px;
     color: var(--primary-color);
@@ -181,6 +188,10 @@ aside {
     font-size: 30px;
     background-color: var(--normal);
     letter-spacing: 20px;
+    text-align: center;
+    padding: 3px;
+    color: var(--primary-color);
+    font-family: var(--body-font);
 }
 
 .image figure img {
